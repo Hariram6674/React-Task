@@ -1,0 +1,55 @@
+/* styling.css */
+/* styling.css */
+table {
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+  color: black;
+  max-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color:white;
+}
+
+th {
+  background-color: black;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
+
+tr:nth-child(odd) {
+  background-color: black;
+}
+
+/* Adjust the width of specific columns */
+td:nth-child(6), /* Email */
+td:nth-child(7), /* Domain */
+td:nth-child(8) /* IP */
+{
+  max-width: 300px; /* Adjust the width as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Remove text-overflow and overflow properties for University column */
+/* University */
+
+img {
+  max-width: 50px;
+  height: auto;
+}
+
+.table-container {
+  max-height: 800px; /* Adjust the height as needed */
+  overflow-y: 400px;
+}
