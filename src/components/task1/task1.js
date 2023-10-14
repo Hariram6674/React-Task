@@ -22,7 +22,7 @@ export function Task1() {
   const wordCount = countWords(inputText);
 
   return (
-    <div style={{ height: '850px'}} >
+    <div style={{ height: '7000px'}} >
       <Container>
         <Row className="justify-content-md-center">
           <Col xs lg="3">
