@@ -38,7 +38,7 @@ export function Task3() {
 
   return (
     <ThemeProvider theme={selectedTheme}>
-      <div style={{ height: '850px' }}>
+      <div style={{ height: '700px' }}>
         <GlobalStyles />
 
         <ThemeContainer>
