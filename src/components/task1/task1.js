@@ -8,14 +8,12 @@ import Badge from 'react-bootstrap/Badge'
 
 export function Task1() {
   const [inputText, setInputText] = useState('');
-  // event handler
   const handleChange = event => {
     setInputText(event.target.value);
   };
 
-  // Function to count words
   const countWords = text => {
-    const words = text.trim().split(/\s+/); // Split text by spaces
+    const words = text.trim().split(/\s+/); 
     return words.length;
   };
 
