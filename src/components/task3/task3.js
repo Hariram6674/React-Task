@@ -20,10 +20,10 @@ import {
 } from "./Theme.styled";
 
 export function Task3() {
-  // theme state
+  
   const [selectedTheme, setSelectedTheme] = useState(light);
 
-  // react hook to get the theme selected by the user that is saved in local storage
+ 
   useEffect(() => {
     const currentTheme = JSON.parse(localStorage.getItem("current-theme"));
     if (currentTheme) {
