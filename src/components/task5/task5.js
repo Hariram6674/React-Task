@@ -21,7 +21,7 @@ export class Task5 extends Component {
 
   render() {
     return (
-      <div style={{height:'700px'}} className='mt-5'>
+      <div style={{height:'650px'}} className='mt-5'>
         <Form>
           <h2>Input Your Birthdate</h2>
           <FormControl
