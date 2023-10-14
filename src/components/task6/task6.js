@@ -6,7 +6,7 @@ import ThirdSection from './ThirdSection';
 
 export function Task6() {
   return (
-    <div style={{height:'850px'}}>
+    <div style={{height:'700px'}}>
       <FirstSection />
       <SecondSection />
       <ThirdSection />
