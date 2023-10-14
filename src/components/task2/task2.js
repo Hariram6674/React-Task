@@ -15,7 +15,7 @@ const btnValues = [
 
 export function Task2() {
   return (
-    <div style={{ height: '850px' }} className='d-flex justify-content-center align-items-center'>
+    <div style={{ height: '700px' }} className='d-flex justify-content-center align-items-center'>
     <p>
     <CalcProvider >
       <Wrapper>
