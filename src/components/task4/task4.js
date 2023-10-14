@@ -13,7 +13,7 @@ export function Task4() {
     fetch(URL)
       .then((res) => res.json())
       .then((data) => {
-        setUsers(data.users); // Access the 'users' array within the data
+        setUsers(data.users); 
       })
   };
 
