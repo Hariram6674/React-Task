@@ -1,5 +1,4 @@
-/* styling.css */
-/* styling.css */
+
 table {
   max-width: 100%;
   border-collapse: collapse;
@@ -30,19 +29,18 @@ tr:nth-child(odd) {
   background-color: black;
 }
 
-/* Adjust the width of specific columns */
-td:nth-child(6), /* Email */
-td:nth-child(7), /* Domain */
-td:nth-child(8) /* IP */
+
+td:nth-child(6), 
+td:nth-child(7), 
+td:nth-child(8) 
 {
-  max-width: 300px; /* Adjust the width as needed */
+  max-width: 300px; 
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* Remove text-overflow and overflow properties for University column */
-/* University */
+
 
 img {
   max-width: 50px;
@@ -50,6 +48,6 @@ img {
 }
 
 .table-container {
-  max-height: 700px; /* Adjust the height as needed */
+  max-height: 700px;
   overflow-y: 400px;
 }
