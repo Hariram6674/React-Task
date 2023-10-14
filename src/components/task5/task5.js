@@ -10,13 +10,13 @@ export class Task5 extends Component {
     this.state = {
       newDate: '',
       birthday: '1985-08-05',
-      showStats: false //->ternary expression
+      showStats: false 
     };
   }
 
   changeBirthday() {
     console.log(this.state);
-    this.setState({ birthday: this.state.newDate, showStats: true }); //important to set default state
+    this.setState({ birthday: this.state.newDate, showStats: true }); 
   }
 
   render() {
