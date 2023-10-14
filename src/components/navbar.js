@@ -2,10 +2,10 @@ import React from "react";
 import { Nav, NavLink, NavMenu } from "./NavbarElements";
 
 const Navbar = ({ onLinkClick }) => {
-  // Function to handle link clicks
+  
   const handleLinkClick = () => {
     if (onLinkClick) {
-      onLinkClick(); // Call the provided onLinkClick function
+      onLinkClick(); 
     }
   };
 
