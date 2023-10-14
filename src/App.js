@@ -18,9 +18,9 @@ function App() {
 
   return (
     <div className=" justify-content-center align-items-center">
-      {showHeading && <h1 className="h1">React Tasks</h1>}
+      {showHeading && <h1 className="h1">React Tasks<a href='https://github.com/Hariram6674/React-Task'>Github link</a></h1>}
       <Router>
-        <Navbar onLinkClick={handleLinkClick} /> {/* Pass the onLinkClick function */}
+        <Navbar onLinkClick={handleLinkClick} />
         <Routes>
           <Route path="/task1" element={<Task1 />} />
           <Route path="/task2" element={<Task2 />} />
